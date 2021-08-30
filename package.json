@@ -1,5 +1,7 @@
 {
     "private": true,
+    "name": "vue-3",
+    "description": "",
     "scripts": {
         "dev": "npm run development",
         "development": "mix",
@@ -10,11 +12,12 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@types/webpack-env": "^1.16.2",
         "@vue/compiler-sfc": "^3.2.6",
         "axios": "^0.21",
-        "bootstrap": "^4.6.0",
+        "bootstrap": "^5.1",
         "jquery": "^3.6",
-        "laravel-mix": "^6.0.6",
+        "laravel-mix": "^6.0.28",
         "lodash": "^4.17.19",
         "popper.js": "^1.16.1",
         "postcss": "^8.1.14",
@@ -26,7 +29,9 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "@aacassandra/vue3-progressbar": "^1.0.3",
         "vue-router": "^3.5.2",
+        "vue-sweetalert2": "^5.0.2",
         "vuex": "^4.0.2"
     }
 }

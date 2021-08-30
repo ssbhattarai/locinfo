@@ -9,7 +9,7 @@
 
 ## About Project
 
-Locinfo is an Single Page Application (SPA) build with different modern frameworks like:
+Locinfo is an Single Page Application (SPA) build with different modern tools/frameworks like:
 
 ```
     Laravel 8,
