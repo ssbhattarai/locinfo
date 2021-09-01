@@ -11,7 +11,7 @@ import 'sweetalert2/dist/sweetalert2.min.css';
 
 import VueProgressBar from "@aacassandra/vue3-progressbar";
 const options = {
-    color: "#bffaf3",
+    color: "rgb(14 135 233)",
     failedColor: "#874b4b",
     thickness: "10px",
     transition: {
@@ -26,10 +26,10 @@ const options = {
 
 import store from './store/store';
 import App from './layouts/App';
-import router from './router/routes';
+import index from './router/index';
 
  const app = createApp(App)
- app.use(router)
+ app.use(index)
  app.use(VueSweetalert2)
  app.use(VueProgressBar, options)
 //  app.use(store)
